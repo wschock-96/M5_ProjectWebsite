@@ -1,0 +1,78 @@
+body {
+  padding-top: 70px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f7f5f2;
+  color: #4b4b4b;
+}
+
+h1, h2, h3, .nav-link, .btn {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+  background-color: #d2b48c;
+
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+
+}
+
+.navbar-brand {
+  font-family: 'Damion', sans-serif;
+  font-size: 38px;
+}
+
+.navbar-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hero {
+  background-color: #7fa08a;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.card {
+  border: none;
+}
+
+.btn-custom {
+  background-color: #a67b5b;
+  color: white;
+}
+
+.table {
+  background-color: white;
+}
+
+.hero {
+  position: relative;
+  height: 100vh; 
+  overflow: hidden;
+}
+  
+.carousel-inner img {
+  object-fit:contain; 
+  top: 0;
+  left: 0;
+  height: 500px;
+  width: 1000px;
+  border-radius: 20px;
+}
+  
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; 
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  z-index: 1;
+}
+
